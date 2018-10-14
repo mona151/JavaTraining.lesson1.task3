@@ -33,6 +33,9 @@ public class Main {
             case '/': result = calculatingEngine.doDivide(A, B);
                 System.out.println(A + "/" + B + "=" + result);
                 break;
+
+            default:
+                System.out.println("\"" + operator + "\" is not a correct operator!");
         }
     }
 }
