@@ -7,16 +7,16 @@
  * */
 
 public class CalculatingEngine {
-    public static void doSum() {
-
+    public static int doSum(int A,int B) {
+        return(A+B);
     }
-    public static void doDiff() {
-
+    public static int doDiff(int A,int B) {
+        return(A-B);
     }
-    public static void doMutliply(){
-
+    public static int doMutliply(int A,int B){
+        return(A*B);
     }
-    public static void doDivide(){
-
+    public static double doDivide(int A,int B){
+        return(A/B);
     }
 }
